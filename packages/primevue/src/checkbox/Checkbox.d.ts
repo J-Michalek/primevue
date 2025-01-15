@@ -97,15 +97,15 @@ export interface CheckboxProps {
     /**
      * Value of the checkbox.
      */
-    value?: any;
+    value?: boolean;
     /**
      * Value binding of the checkbox.
      */
-    modelValue?: any;
+    modelValue?: boolean;
     /**
      * The default value for the input when not controlled by `modelValue`.
      */
-    defaultValue?: any;
+    defaultValue?: boolean;
     /**
      * Name of the input element.
      */
